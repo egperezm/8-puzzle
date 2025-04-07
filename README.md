@@ -12,15 +12,17 @@ Viabilidad del camino:
 Utilize el algoritmo de búsqueda en amplitud (BFS) que garantiza hallar el camino de solución con el menor número de movimientos posibles. Sin embargo, en el 8-puzzle el espacio de estados es limitado, pero en algunos casos el camino puede exceder un umbral. Si la solución es demasiado extensa, se considera que el árbol de búsqueda es muy laborioso. Esto se informa en la interfaz para que el usuario pueda justificar si vale la pena continuar.
 # Generación del árbol completo:
 Debido a que el árbol de búsqueda completo puede contener muchos nodos lo que lo haría inviable para procesar y visualizar, se ha optado por generar el archivo DOT únicamente del camino, solución encontrado. Esto permite ver el recorrido óptimo, incluyendo las direcciones y punteros, se utilizan los hashcode para simular las direcciones de memoria.
-# Dependencias spring initializr
-- 1.7	Spring Web
-- 1.8	Spring Data MongoDB
-- 1.9	Spring Security
-- 1.10	Spring Boot DevTools
-- 1.11	Lomok
-- 1.12	Validatión
-- 1.13	Spring Boot Actuator
-- Como lo lo muestra la siguiente imagen
+# La Clase
+- La clase PuzzlePerez que se extiende JFrame: Se encarga de crear la interfaz gráfica.
+Clases internas:
+- Estado, modela la configuración del tablero (una matriz 3x3)
+- Nodo, representa cada nodo en el árbol de búsqueda, guardando el estado, el nodo padre, el movimiento realizado y la profundidad.
+# Métodos esenciales: 
+- ejecutarSolucion(): Lee los estados ingresados, convierte los datos y lanza la búsqueda.
+- busquedaEnAmplitud(): Implementa el algoritmo BFS para encontrar la solución.
+- generarHijos(): Crea los nodos hijos con los movimientos válidos.
+- reconstruirSolucion(): Recorre la cadena de nodos para reconstruir el camino solución.
+- generarArchivoDot(): Genera un archivo DOT usado con Graphviz del camino solución encontrado.
 - ## ![image](https://github.com/user-attachments/assets/30250126-ead0-4609-83ec-dc3c416b0f99)
 - 2)	Luego seleccionar GENERATE, el archivo se generará en su carpeta de descargas (o la que tenga seleccionada por default.).
 - 3)	Extraer el archivo con 7-zip 24.08 o Winrar7.0. 
