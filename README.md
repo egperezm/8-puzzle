@@ -54,18 +54,6 @@ Clases internas:
 ## <img width="579" alt="Captura de pantalla 2025-04-07 a la(s) 15 48 51" src="https://github.com/user-attachments/assets/c7adc13c-a8a9-4587-9927-2ca135b8b1ed" />
 ## Genera el archivo .png como se muestra:
 ## <img width="620" alt="Captura de pantalla 2025-04-07 a la(s) 15 50 13" src="https://github.com/user-attachments/assets/4d45fb14-05b5-486b-a48c-d03714978c72" />
-- Dentro de la misma ubicación se genera el archivo.png con el nombre de solución que podrás abrir con cualquier visualizador de image de tu preferencia.
+- Dentro de la misma ubicación se genera el archivo.png con el nombre de solución que podrás abrir con cualquier visualizador de imagen de tu preferencia.
 - Imagen Solucion.png
 ## ![Solucion](https://github.com/user-attachments/assets/640dced7-f968-4c69-9fb5-e75e7cfdaa8a)
-
-  
-# Modelos. 
-- debe crear las clases .java, con los siguientes nombres.
--	Contacto.java	-	Empresa.java
--	Pedido.java	-	Producto.java
--	Usuario.java
-# Repositorios. 
-- debe crear clases .java, con los siguientes nombres. 
--	ContactoRepositorio.java		-	EmpresaRepositorio.java
--	PedidoRepositorio.java		-	ProductoRepositorio.java
--	UsuarioRepositorio.java
