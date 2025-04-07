@@ -2,19 +2,16 @@
 Amplitud (BFS)
 # Implementación de la solución del 8-puzzle en Java.
 - Búsqueda en amplitud para encontrar la secuencia de movimientos.
-- Verificación de la viabilidad de la ruta: si la cantidad de movimientos excede un umbral,
+- Verificación de la viabilidad de la ruta: si la cantidad de movimientos excede un umbral 30 movimientoss,
 se considera que el árbol de búsqueda es muy laborioso.
 - Generación de un archivo DOT que muestra, de forma simplificada, el camino solución con direcciones (para
 visualización con Graphviz).
 - Se integra una interfaz gráfica utilizando Swing.
-# Pasos iniciales para el desarrollo
-- 1)	Como primer paso es ir a la página de https://start.spring.io
-- 1.1)	Establecer en Projet: Maven
-- 1.2)	En lenguaje: Java
-- 1.3)	En spring boot: 3.3.4
-- 1.4)	En Project Metadata: tuempresa (en mi caso, ustedes coloquen el nombre que quieran)
-- 1.5)	En Packagin seleccione: Jar
-- 1.6)	En Java: seleccionan: 17
+# Explicación y Justificación de la Ruta de Solución
+Viabilidad del camino:
+Utilize el algoritmo de búsqueda en amplitud (BFS) que garantiza hallar el camino de solución con el menor número de movimientos posibles. Sin embargo, en el 8-puzzle el espacio de estados es limitado, pero en algunos casos el camino puede exceder un umbral. Si la solución es demasiado extensa, se considera que el árbol de búsqueda es muy laborioso. Esto se informa en la interfaz para que el usuario pueda justificar si vale la pena continuar.
+# Generación del árbol completo:
+Debido a que el árbol de búsqueda completo puede contener muchos nodos lo que lo haría inviable para procesar y visualizar, se ha optado por generar el archivo DOT únicamente del camino, solución encontrado. Esto permite ver el recorrido óptimo, incluyendo las direcciones y punteros, se utilizan los hashcode para simular las direcciones de memoria.
 # Dependencias spring initializr
 - 1.7	Spring Web
 - 1.8	Spring Data MongoDB
