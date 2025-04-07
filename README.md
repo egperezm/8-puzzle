@@ -30,14 +30,9 @@ Clases internas:
 - Ingresar el Estado Inicial y el Estado Final (por ejemplo, 1,2,3,4,5,6,7,8,0 para el estado ordenado, donde 0 representará el espacio vacío).
 - Pulsar Ejecutar Solución para iniciar la búsqueda.
 # Como se muestra en esta imagen:
-## <img width="703" alt="Captura de pantalla 2025-04-07 a la(s) 12 11 49" src="https://github.com/user-attachments/assets/70e66808-a73b-497c-a04f-d3fdfb865968" />
-
-Pulsar Mostrar Árbol de Búsqueda para generar el archivo DOT que podrás visualizar con Graphviz.
-# Controladores.
-7)	Dentro de la carpeta controller debe crear las clases .java, con los siguientes nombres. 
--	Contactocontrolador.java,	-	EmpresaControlador.java
--	PedidoControlador.java		-	ProductoControlador.java
--	UsuarioControlador.java
+## <img width="707" alt="Captura de pantalla 2025-04-07 a la(s) 13 59 30" src="https://github.com/user-attachments/assets/65cd6ddd-9169-41dd-94ce-77b09405b0c1" />
+# Árbol de Búsqueda:
+- Pulsar Mostrar Árbol de Búsqueda para generar el archivo DOT que podrás visualizar con Graphviz.
 # Modelos. 
 - debe crear las clases .java, con los siguientes nombres.
 -	Contacto.java	-	Empresa.java
