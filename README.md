@@ -9,7 +9,7 @@ visualización con Graphviz).
 - Se integra una interfaz gráfica utilizando Swing.
 # Explicación y Justificación de la Ruta de Solución
 Viabilidad del camino:
-Utilize el algoritmo de búsqueda en amplitud (BFS) que garantiza hallar el camino de solución con el menor número de movimientos posibles. Sin embargo, en el 8-puzzle el espacio de estados es limitado, pero en algunos casos el camino puede exceder un umbral. Si la solución es demasiado extensa, se considera que el árbol de búsqueda es muy laborioso. Esto se informa en la interfaz para que el usuario pueda justificar si vale la pena continuar.
+Utilicé el algoritmo de búsqueda en amplitud (BFS) que garantiza hallar el camino de solución con el menor número de movimientos posibles. Sin embargo, en el 8-puzzle el espacio de estados es limitado, pero en algunos casos el camino puede exceder un umbral. Si la solución es demasiado extensa, se considera que el árbol de búsqueda es muy laborioso. Esto se informa en la interfaz para que el usuario pueda justificar si vale la pena continuar.
 # Generación del árbol completo:
 Debido a que el árbol de búsqueda completo puede contener muchos nodos lo que lo haría inviable para procesar y visualizar, se ha optado por generar el archivo DOT únicamente del camino, solución encontrado. Esto permite ver el recorrido óptimo, incluyendo las direcciones y punteros, se utilizan los hashcode para simular las direcciones de memoria.
 # La Clase
@@ -23,12 +23,16 @@ Clases internas:
 - generarHijos(): Crea los nodos hijos con los movimientos válidos.
 - reconstruirSolucion(): Recorre la cadena de nodos para reconstruir el camino solución.
 - generarArchivoDot(): Genera un archivo DOT usado con Graphviz del camino solución encontrado.
-- ## ![image](https://github.com/user-attachments/assets/30250126-ead0-4609-83ec-dc3c416b0f99)
-- 2)	Luego seleccionar GENERATE, el archivo se generará en su carpeta de descargas (o la que tenga seleccionada por default.).
-- 3)	Extraer el archivo con 7-zip 24.08 o Winrar7.0. 
-- 4)	Luego abrir Visual Studio Code 1.93.
-- 5)	Luego abrir la carpeta que ha descomprimido desde Visual studio code 1.93.
-- 6)	Al abrir la carpeta debe crear cuatro carpetas desde la raiz main , controladores, modelos, repositorios y seguridad.
+- ## Compilar y Ejecutar el Proyecto:
+- Copia y pega el código completo en tu proyecto de Apache NetBeans, (en este caso )IDE 22, -para que lo tomen en cuenta-.  
+- Ejecuta la aplicación haciendo clic derecho sobre el proyecto y seleccionando Run 
+# Se abrirá una ventana con la interfaz gráfica:
+- Ingresar el Estado Inicial y el Estado Final (por ejemplo, 1,2,3,4,5,6,7,8,0 para el estado ordenado, donde 0 representará el espacio vacío).
+- Pulsar Ejecutar Solución para iniciar la búsqueda.
+# Como se muestra en esta imagen:
+## <img width="703" alt="Captura de pantalla 2025-04-07 a la(s) 12 11 49" src="https://github.com/user-attachments/assets/70e66808-a73b-497c-a04f-d3fdfb865968" />
+
+Pulsar Mostrar Árbol de Búsqueda para generar el archivo DOT que podrás visualizar con Graphviz.
 # Controladores.
 7)	Dentro de la carpeta controller debe crear las clases .java, con los siguientes nombres. 
 -	Contactocontrolador.java,	-	EmpresaControlador.java
