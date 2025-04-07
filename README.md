@@ -35,9 +35,26 @@ Clases internas:
 - Pulsar Mostrar Árbol de Búsqueda paso 4 para generar el archivo DOT que podrás visualizar con Graphviz.
 ## <img width="707" alt="Captura de pantalla 2025-04-07 a la(s) 13 59 30" src="https://github.com/user-attachments/assets/f05a9419-90cd-46dd-aafd-ff82a6780694" />
 - Una vez generado el archivo Solucion.dot en la carpeta raíz del proyecto
-## Como se muestra en esta imagen:
-##<img width="580" alt="Captura de pantalla 2025-04-07 a la(s) 15 35 28" src="https://github.com/user-attachments/assets/3132b704-92da-4617-8aef-48e2ce2e4c41" />
-
+# Como se muestra en esta imagen:
+## <img width="580" alt="Captura de pantalla 2025-04-07 a la(s) 15 35 28" src="https://github.com/user-attachments/assets/3132b704-92da-4617-8aef-48e2ce2e4c41" />
+## Instala Graphviz:
+- Para el caso de MacOs
+- Instala Homebrew con este comando, sino lo tienes insetalado
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+- Si ya lo tienes sigue este paso:
+  Abre el terminal y agrega este comando brew install graphviz
+- Para asegurarte que ya tienes instalad Graphviz puedes ejecutar este comando en el terminal:
+  dot -V, te devolverá la version de Graphviz instalada
+- Abre una terminal y navega hasta la carpeta del proyecto.
+- O puedes dar clic derecho, luego te vas a servicios y Nuevo terminal en la carpeta
+- ingresas este comando:
+  dot -Tpng Solucion.dot -o Solucion.png
+## Como en esta imagen:
+## <img width="579" alt="Captura de pantalla 2025-04-07 a la(s) 15 48 51" src="https://github.com/user-attachments/assets/c7adc13c-a8a9-4587-9927-2ca135b8b1ed" />
+## Te genera el archivo .dot como se muestra:
+## <img width="620" alt="Captura de pantalla 2025-04-07 a la(s) 15 50 13" src="https://github.com/user-attachments/assets/4d45fb14-05b5-486b-a48c-d03714978c72" />
+- Ejecuta el siguiente comando para generar una imagen PNG:
+  
 # Modelos. 
 - debe crear las clases .java, con los siguientes nombres.
 -	Contacto.java	-	Empresa.java
