@@ -32,7 +32,12 @@ Clases internas:
 # Como se muestra en esta imagen:
 ## <img width="707" alt="Captura de pantalla 2025-04-07 a la(s) 13 59 30" src="https://github.com/user-attachments/assets/65cd6ddd-9169-41dd-94ce-77b09405b0c1" />
 # Árbol de Búsqueda:
-- Pulsar Mostrar Árbol de Búsqueda para generar el archivo DOT que podrás visualizar con Graphviz.
+- Pulsar Mostrar Árbol de Búsqueda paso 4 para generar el archivo DOT que podrás visualizar con Graphviz.
+## <img width="707" alt="Captura de pantalla 2025-04-07 a la(s) 13 59 30" src="https://github.com/user-attachments/assets/f05a9419-90cd-46dd-aafd-ff82a6780694" />
+- Una vez generado el archivo Solucion.dot en la carpeta raíz del proyecto
+## Como se muestra en esta imagen:
+##<img width="580" alt="Captura de pantalla 2025-04-07 a la(s) 15 35 28" src="https://github.com/user-attachments/assets/3132b704-92da-4617-8aef-48e2ce2e4c41" />
+
 # Modelos. 
 - debe crear las clases .java, con los siguientes nombres.
 -	Contacto.java	-	Empresa.java
