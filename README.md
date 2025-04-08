@@ -1,18 +1,18 @@
 # 8-puzzle
 Amplitud (BFS)
-# Implementación de la solución del 8-puzzle en Java.
+# Implementación de la solución del 8-puzzle en Java:
 - Búsqueda en amplitud para encontrar la secuencia de movimientos.
 - Verificación de la viabilidad de la ruta: si la cantidad de movimientos excede un umbral 30 movimientoss,
 se considera que el árbol de búsqueda es muy laborioso.
 - Generación de un archivo DOT que muestra, de forma simplificada, el camino solución con direcciones (para
 visualización con Graphviz).
 - Se integra una interfaz gráfica utilizando Swing.
-# Explicación y Justificación de la Ruta de Solución
+# Explicación y Justificación de la Ruta de Solución:
 Viabilidad del camino:
 Utilicé el algoritmo de búsqueda en amplitud (BFS) que garantiza hallar el camino de solución con el menor número de movimientos posibles. Sin embargo, en el 8-puzzle el espacio de estados es limitado, pero en algunos casos el camino puede exceder un umbral. Si la solución es demasiado extensa, se considera que el árbol de búsqueda es muy laborioso. Esto se informa en la interfaz para que el usuario pueda justificar si vale la pena continuar.
 # Generación del árbol completo:
 Debido a que el árbol de búsqueda completo puede contener muchos nodos lo que lo haría inviable para procesar y visualizar, se ha optado por generar el archivo DOT únicamente del camino, solución encontrado. Esto permite ver el recorrido óptimo, incluyendo las direcciones y punteros, se utilizan los hashcode para simular las direcciones de memoria.
-# La Clase
+# La Clase:
 - La clase PuzzlePerez que se extiende JFrame: Se encarga de crear la interfaz gráfica.
 Clases internas:
 - Estado, modela la configuración del tablero (una matriz 3x3)
