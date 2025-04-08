@@ -1,0 +1,4 @@
+digraph CaminoSolucion {
+node [shape=record];
+n521643931 [label="{n521643931 | Inicio | Prof:0}"];
+}
