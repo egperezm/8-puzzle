@@ -33,7 +33,7 @@ Clases internas:
 ## <img width="705" alt="Captura de pantalla 2025-04-08 a la(s) 12 01 40" src="https://github.com/user-attachments/assets/5cad68af-19d4-4a1c-b2ae-52c3b5754db0" />
 # Árbol de Búsqueda:
 - Pulsar Mostrar Árbol de Búsqueda paso 4 para generar el archivo DOT que podrás visualizar con Graphviz.
-## <img width="707" alt="Captura de pantalla 2025-04-07 a la(s) 13 59 30" src="https://github.com/user-attachments/assets/f05a9419-90cd-46dd-aafd-ff82a6780694" />
+## <img width="705" alt="Captura de pantalla 2025-04-08 a la(s) 12 01 40" src="https://github.com/user-attachments/assets/33325d74-5fd4-43c0-86bc-9379173cc604" />
 - Una vez generado el archivo Solucion.dot en la carpeta raíz del proyecto
 # Como se muestra en esta imagen:
 ## <img width="580" alt="Captura de pantalla 2025-04-07 a la(s) 15 35 28" src="https://github.com/user-attachments/assets/3132b704-92da-4617-8aef-48e2ce2e4c41" />
