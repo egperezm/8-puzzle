@@ -30,7 +30,7 @@ Clases internas:
 - Ingresar el Estado Inicial y el Estado Final (por ejemplo, 1,2,3,4,5,6,7,8,0 para el estado ordenado, donde 0 representará el espacio vacío).
 - Pulsar Ejecutar Solución para iniciar la búsqueda.
 # Como se muestra en esta imagen:
-## <img width="707" alt="Captura de pantalla 2025-04-07 a la(s) 13 59 30" src="https://github.com/user-attachments/assets/65cd6ddd-9169-41dd-94ce-77b09405b0c1" />
+## <img width="705" alt="Captura de pantalla 2025-04-08 a la(s) 12 01 40" src="https://github.com/user-attachments/assets/5cad68af-19d4-4a1c-b2ae-52c3b5754db0" />
 # Árbol de Búsqueda:
 - Pulsar Mostrar Árbol de Búsqueda paso 4 para generar el archivo DOT que podrás visualizar con Graphviz.
 ## <img width="707" alt="Captura de pantalla 2025-04-07 a la(s) 13 59 30" src="https://github.com/user-attachments/assets/f05a9419-90cd-46dd-aafd-ff82a6780694" />
